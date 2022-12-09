@@ -22,6 +22,7 @@ const Main = () => {
               <i className="fas fa-search"></i>
             </button>
           </div>
+          <img src="../../public/images.b2.png" alt="" />
         </div>
       </div>
     </>
