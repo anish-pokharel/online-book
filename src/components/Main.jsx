@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Card from "./Card";
 const Main = () => {
   const [search, setSearch] = useState("");
   return (
@@ -16,6 +17,7 @@ const Main = () => {
               type="text"
               placeholder="Enter Your Book Name"
               value={search}
+              onChange={(e) => setSearch(e.target.value)}
             />
             <button>
               <i className="fas fa-search"></i>
@@ -24,6 +26,7 @@ const Main = () => {
           <img src="./images/bg2.png" alt="" />
         </div>
       </div>
+      <div className="container">{<Card />}</div>
     </>
   );
 };
