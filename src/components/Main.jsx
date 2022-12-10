@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const Main = () => {
   const [search, setSearch] = useState("");
   return (
@@ -22,7 +21,7 @@ const Main = () => {
               <i className="fas fa-search"></i>
             </button>
           </div>
-          <img src="../../public/images.b2.png" alt="" />
+          <img src="./images/bg2.png" alt="" />
         </div>
       </div>
     </>
